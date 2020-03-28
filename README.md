@@ -1,5 +1,15 @@
 # single-spa-vue
 
+##### Table of Contents
+
+1. [Project Setup](##project-setup)
+1. [Reproduce](##reproduce)
+   1. [Setup single-spa](###Setup-single-spa)
+   1. [Load your single-spa module](###Load-your-single-spa-module)
+   1. [optimization](###optimization)
+
+---
+
 ## Project setup
 
 ```
@@ -23,6 +33,8 @@ yarn build
 ```
 yarn lint
 ```
+
+---
 
 ## reproduce
 
