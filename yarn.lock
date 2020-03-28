@@ -7375,11 +7375,6 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-systemjs-webpack-interop@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/systemjs-webpack-interop/download/systemjs-webpack-interop-1.1.2.tgz#2fb90e30006deda43de48c45a8cbc680e6445226"
-  integrity sha1-L7kOMABt7aQ95IxFqMvGgOZEUiY=
-
 table@^5.2.3:
   version "5.4.6"
   resolved "https://registry.npm.taobao.org/table/download/table-5.4.6.tgz#1292d19500ce3f86053b05f0e8e7e4a3bb21079e"
