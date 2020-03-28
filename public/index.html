@@ -10,12 +10,21 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "app": "http://localhost:8081/js/app.js",
-          "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.1.1/lib/system/single-spa.min.js",
-          "vue": "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"
+          "app": "http://localhost:8081/js/app.js"
         }
       }
     </script>
+    <link
+      rel="preload"
+      href="https://cdn.jsdelivr.net/npm/single-spa@5.1.1/lib/system/single-spa.min.js"
+      as="script"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@1.12.0/dist/import-map-overrides.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.2.5/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.2.5/dist/extras/amd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.2.5/dist/extras/named-exports.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.2.5/dist/extras/named-register.min.js"></script>
   </head>
   <body>
     <noscript>
