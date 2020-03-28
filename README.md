@@ -2,13 +2,15 @@
 
 ##### Table of Contents
 
-1. [Project Setup](##project-setup)
-1. [Reproduce](##reproduce)
-   1. [Setup single-spa](###Setup-single-spa)
-   1. [Load your single-spa module](###Load-your-single-spa-module)
-   1. [optimization](###optimization)
+1. [Project Setup](#project-setup)
+1. [Reproduce](#reproduce)
+   - [Setup single-spa](#setup-single-spa)
+   - [Load your single-spa module](#load-your-single-spa-module)
+   - [Optimization](#optimization)
 
 ---
+
+<a name="project-setup"></a>
 
 ## Project setup
 
@@ -36,12 +38,16 @@ yarn lint
 
 ---
 
-## reproduce
+<a name="reproduce"></a>
+
+## Reproduce
 
 ```sh
 vue create single-spa-vue
 cd single-spa-vue
 ```
+
+<a name="setup-single-spa"></a>
 
 ### Setup single-spa
 
@@ -73,6 +79,8 @@ Add dependencys to the SystemJS import map in your `public/index.html`.
 <script src="https://cdn.jsdelivr.net/npm/systemjs@6.2.5/dist/extras/named-register.min.js"></script>
 ```
 
+<a name="load-your-single-spa-module"></a>
+
 ### Load your single-spa module
 
 ```html
@@ -88,7 +96,9 @@ Add dependencys to the SystemJS import map in your `public/index.html`.
 </script>
 ```
 
-### optimization
+<a name="#optimization"></a>
+
+### Optimization
 
 Make sure that you have only one instance of your framework in the entire application. To do this, remove your framework and all main modules used by it.
 
@@ -112,6 +122,8 @@ Remove `src/set-public-path.js` from your project and add the modules to your we
 ```sh
 rm src/set-public-path.js
 ```
+
+Create `vue.config.js` and add the following content.
 
 ```sh
 yarn remove systemjs-webpack-interop
