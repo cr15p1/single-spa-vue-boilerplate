@@ -6932,6 +6932,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+single-spa-vue@^1.5.2:
+  version "1.8.2"
+  resolved "https://registry.npm.taobao.org/single-spa-vue/download/single-spa-vue-1.8.2.tgz#16a5eb6e6e0c4cbb35cd2736b81f78ffabc5fcc2"
+  integrity sha1-FqXrbm4MTLs1zSc2uB94/6vF/MI=
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -7374,6 +7379,11 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+systemjs-webpack-interop@^1.1.0:
+  version "1.1.2"
+  resolved "https://registry.npm.taobao.org/systemjs-webpack-interop/download/systemjs-webpack-interop-1.1.2.tgz#2fb90e30006deda43de48c45a8cbc680e6445226"
+  integrity sha1-L7kOMABt7aQ95IxFqMvGgOZEUiY=
 
 table@^5.2.3:
   version "5.4.6"
@@ -7842,6 +7852,11 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-cli-plugin-single-spa@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-single-spa/download/vue-cli-plugin-single-spa-1.1.0.tgz#76b3dd189fd149afe4fe05312439262e4ac58af0"
+  integrity sha1-drPdGJ/RSa/k/gUxJDkmLkrFivA=
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
