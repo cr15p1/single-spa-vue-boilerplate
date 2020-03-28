@@ -10,7 +10,10 @@
     <script type="systemjs-importmap">
       {
         "imports": {
-          "app": "http://localhost:8081/js/app.js"
+          "app": "http://localhost:8080/js/app.js",
+          "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.1.1/lib/system/single-spa.min.js",
+          "single-spa-vue": "https://cdn.jsdelivr.net/npm/single-spa-vue@1.8.2/lib/single-spa-vue.min.js",
+          "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"
         }
       }
     </script>
@@ -34,6 +37,17 @@
         continue.</strong
       >
     </noscript>
+    <script>
+      System.import("single-spa").then(singleSpa => {
+        const app = window.System.import("app");
+        singleSpa.registerApplication(
+          "app",
+          () => app,
+          location => location.pathname.startsWith("/")
+        );
+        singleSpa.start();
+      });
+    </script>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

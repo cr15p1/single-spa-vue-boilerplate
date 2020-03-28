@@ -6932,11 +6932,6 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-single-spa-vue@^1.5.2:
-  version "1.8.2"
-  resolved "https://registry.npm.taobao.org/single-spa-vue/download/single-spa-vue-1.8.2.tgz#16a5eb6e6e0c4cbb35cd2736b81f78ffabc5fcc2"
-  integrity sha1-FqXrbm4MTLs1zSc2uB94/6vF/MI=
-
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -7906,11 +7901,6 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
-
-vue@^2.6.11:
-  version "2.6.11"
-  resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
-  integrity sha1-dllNh31LEiNEBuhONSdcbVFBJcU=
 
 watchpack@^1.6.0:
   version "1.6.1"
